@@ -64,7 +64,6 @@ function checkans(idx){
 function btnpress() {
     let btn = this;
     userflash(btn);
-    // console.log("btn pressed");
     usercolor= btn.getAttribute("id");
     userSeq.push(usercolor);
 
